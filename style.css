@@ -7,12 +7,23 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background-image: url(back1.jpg);
+    background-size: cover;
+}
+
 nav {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.897);
     color: white;
     padding: 12px 3px;
     display: flex;
     justify-content: space-between;
+}
+
+.logo-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo{
@@ -35,23 +46,71 @@ ul > li {
 }
 
 ul > li:hover{
-    color: white;
+    color: rgba(128, 128, 128, 0.865);
 
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.inner-logo{
+    height: 70px;
+    width: 45px;
+    background-image: url(logo.jpg);
+    background-size: contain;
+    margin: 23px 23px 0 23px;
+    text-align: center;
+    border: 4px solid white;
+    border-radius: 50%;
 }
 
 table, td, tr{
     border: 2px solid black;
     border-collapse: collapse;
     padding: 5px 13px;
-}
+}s
+
+
 
 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 80vw;
     margin: 23px auto;
 }
 
+p{
+    text-align: center;
+}
+
 h1, h2, h3 {
     margin: 23px 0;
+    text-align: center;
+}
+
+.animation{
+    font-size: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table{
+    margin-left: 450px;
+    margin-right: 400px;
+}
+
+form{
+    text-align: center;
+}
+
+input{
+    border-radius: 20px;
 }
 
 .btn{
